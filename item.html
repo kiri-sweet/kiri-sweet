@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>漾花</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="services.css" >
+    <style>
+    </style>
+     <script src="konva.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" target="_self"><img src="LOGOBanner.png" alt="LOGO" width="1000px" height="178px"></a>
+        <div class="menu">
+          <a href="#"><img class="member" src="images/member.png" alt="member"></a>
+          <div class="dropdown">
+            <button class="dropbtn"><img class="menu" src="images/menu.png" alt="menu"></button>
+            <div class="dropdown-content">
+                <a href="about.html" target="_block">關於品牌</a>
+                <a href="services.html" target="_block">服務項目</a>
+                <a href="whatsnew.html" target="_block">最新消息</a>
+            </div>
+        </div>
+    
+      </div>
+        <nav class="nav">
+            <a href="about.html" target="_self" onclick="isClick=true"> 
+            <img src="about.gif" onmouseover="this.src='about_hover.gif'" onmouseout="this.src=isClick?'about.gif':'about.gif';isClick=false"> 
+            </a> 
+            <a href="services.html" target="_self" onclick="isClick=true"> 
+            <img src="services.gif" onmouseover="this.src='services_hover.gif'" onmouseout="this.src=isClick?'services.gif':'services.gif';isClick=false"> 
+            </a>
+            <a href="whatsnew.html" target="_self" onclick="isClick=true"> 
+            <img src="whatsnew.gif" onmouseover="this.src='whatsnew_hover.gif'" onmouseout="this.src=isClick?'whatsnew.gif':'whatsnew.gif';isClick=false"> 
+            </a>
+        </nav>
+    </header>
+    <main>
+        <div class="main">
+          <div class="maintext">
+            <div class="text_a">
+                <img src="images/banner_img.jpg" alt="flower"></div>
+            <div class="banner_img">
+                <p>盛開的花兒</p>
+                <p>蕩漾著甜美的芳香</p>
+            </div>
+        </div>  
+    </main>
+    <div class="about_text">
+        <div class="nav_left">
+            <nav>
+                <a href="services.html" target="_self">美妝課程</a><br><br><br>
+                <a href="ser1.html" target="_self">美妝服務</a><br><br><br>
+                <a href="product.html" target="_self">美妝產品</a><br><br><br>
+            </nav>
+        </div>
+        <div class="text_courses">
+            <div class="text_co1">
+                <h2>基礎保養班</h2>
+
+                <p>課程老師：王紫娟老師</p>
+
+                <p>開課日期：2021年10月30日(六)</p>
+                <p>每週六晚上7點至9點</p>
+
+                <p>上課時數：20小時</p>
+
+                <p>課程費用：4000元</p>
+                <img src="images/list_1.jpg" alt="1">
+                <button type="submit">加入購物車</button>
+                <br><br><br><br><br><br>
+                <p>詳細介紹：學習保養的基礎知識，日常清潔、護膚、臉部護理等等。<br>以輕鬆有趣的方式上課，老師重視實作教學。</p><br><br><br><br><br><br>
+                <h3>小遊戲：請拖曳下方兩個小圓點到您認為眼膜應該放置的臉上部位。</h3><br>
+                    (只要截圖在上課前傳給老師，可獲得漾花小紀念品乙份哦！)</p>
+                <div id="container"></div>
+            </div>
+        </div>
+        <div class="drop"><img src="images/1.png" alt="face" width="250px" height="300px"></div>
+        
+        <div class="ser_link">
+            <a href="services.html">BACK</a>
+        </div>
+    </div>
+    <div class="decor">
+        <div class="imag01">
+            <img src="images/img01.png" alt="image01" width="500" height="511">
+        </div>
+        <div class="text1">
+          <p>風日晴和</p>
+          <p>鮮花與微風的故事</p>
+          <p>譜寫生活的醉人詩篇</p>
+        </div>
+    </div>
+    <div class="decor2" dir="rtl">
+      <div class="imag02">
+          <img src="images/img02.png" alt="image01" width="550" height="479">
+      </div>
+      <div class="text2">
+          <p>甜美的笑容</p>
+          <p>清香的味道</p>
+          <p>細緻的打扮</p> 
+          <p>如畫如詩</p>
+      </div>
+  </div>
+   <div class="googlemap">
+    <div class="gtext"><p>漾花美妝顧問有限公司</p>
+         <p>地址：10550 台北市</p> 
+         <p>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;松山鎮</p>
+         <p>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;南京東路三段253號</p>
+    </div>
+    <div class="gmap">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.4724314299156!2d121.5419573642389!3d25.0519719437264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abddf2efc493%3A0x318be85c17ee3286!2z5Y2X5Lqs5b6p6IiI56uZ!5e0!3m2!1szh-TW!2stw!4v1634603577281!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+   </div>
+   <footer class="footer">
+        <p>&copy;漾花美妝顧問有限公司 All Rights Reserved</p>
+        <p class="copyright">版權聲明：本網站所有圖文影片均為作者原創，作專題展示之用。<br>惟，網站內容純屬虛構，實際上並不存在此品牌。</p>
+        <div class="fbig">
+        <a href="#"><img src="images/FB.png" alt="FB" width="50px" height="50px"></a>
+        <a href="#"><img src="images/IG.png" alt="IG" width="50px" height="50px"></a>
+        </div>
+        <img  class="butterflies" src="images/butterflies.png" alt="butterflies" width="250px" height="151px">
+        <img  class="butterflies2" src="images/butterflies2.png" alt="butterflies2" width="250px" height="196px">
+        <button type="button" id="go_top"><img src="images/top.png" alt="top"></button>
+        <script src="jquery.min.js"></script>
+    </footer>
+   
+    <script> 
+        var isClick = false;
+    </script>  
+    <script>
+        $(function(){    
+          $("#go_top").on("click", function(e){    e.preventDefault();    
+            $('html, body').animate({      scrollTop: 0    }, 750);  
+          });  
+        });
+    </script>
+      <script>
+        var width = window.innerWidth;
+        var height = window.innerHeight;
+    
+        var stage = new Konva.Stage({
+          container: 'container',
+          width: width,
+          height: height,
+        });
+    
+        var layer = new Konva.Layer();
+        stage.add(layer);
+    
+        var aImg = new Konva.Image({
+          x: 20,
+          y: 20,
+          width: 50,
+          height: 50,
+          stroke: 'red',
+          strokeWidth: 0,
+          draggable: true,
+        });
+        layer.add(aImg);
+    
+        var bImg = new Konva.Image({
+          x: 240,
+          y: 20,
+          width: 50,
+          height: 50,
+          draggable: true,
+          stroke: 'red',
+          strokeWidth: 0,
+        });
+        layer.add(bImg);
+    
+        var imageObj1 = new Image();
+        imageObj1.onload = function () {
+          aImg.image(imageObj1);
+        };
+        imageObj1.src = 'images/2.png';
+    
+        var imageObj2 = new Image();
+        imageObj2.onload = function () {
+          bImg.image(imageObj2);
+        };
+        imageObj2.src = 'images/2.png';
+    
+        // use event delegation to update pointer style
+        // and apply borders
+        layer.on('mouseover', function (evt) {
+          var shape = evt.target;
+          document.body.style.cursor = 'pointer';
+          shape.strokeEnabled(false);
+        });
+        layer.on('mouseout', function (evt) {
+          var shape = evt.target;
+          document.body.style.cursor = 'default';
+          shape.strokeEnabled(true);
+        });
+      </script>
+</body>
+</html>
